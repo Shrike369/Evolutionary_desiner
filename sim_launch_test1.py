@@ -2,6 +2,7 @@
 import numpy as np
 import genesis as gs
 import json
+import os
 
 # --- 1. Configuration ---
 NUM_ENVS = 10
@@ -181,6 +182,26 @@ for rank, data in enumerate(final_ranking, start=1):
 with open("cycle_updates/fitness_results.json", "w") as f:
     json.dump(ranked_list, f, indent=2)
 
+# --- Append to fitness_history.json ---
+history_path = "cycle_updates/fitness_history.json"
+
+# Load previous history if exists and is not empty
+if os.path.exists(history_path) and os.path.getsize(history_path) > 0:
+    with open(history_path, "r") as f:
+        history = json.load(f)
+else:
+    history = []
+
+# Add current generation results
+generation_number = len(history) + 1
+history.append({
+    "generation": generation_number,
+    "results": ranked_list
+})
+
+with open(history_path, "w") as f:
+    json.dump(history, f, indent=2)
 
 print("Saved fitness_results.json!")
+print("Saved fitness_history.json!")
 print("🏁 Done!")

@@ -1,0 +1,4 @@
+cadquery
+matplotlib
+numpy
+genesis-sim  # or the correct PyPI name for Genesis, if available
