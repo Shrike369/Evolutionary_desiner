@@ -3,70 +3,70 @@
     "rank": 1,
     "env_id": 3,
     "finished": true,
-    "finish_step": 314,
-    "distance": -10.941162109375
+    "finish_step": 308,
+    "distance": -10.977088928222656
   },
   {
     "rank": 2,
     "env_id": 7,
     "finished": true,
-    "finish_step": 321,
-    "distance": -10.943267822265625
+    "finish_step": 310,
+    "distance": -10.97149658203125
   },
   {
     "rank": 3,
-    "env_id": 6,
+    "env_id": 9,
     "finished": true,
-    "finish_step": 323,
-    "distance": -10.943740844726562
+    "finish_step": 310,
+    "distance": -10.969635009765625
   },
   {
     "rank": 4,
-    "env_id": 8,
+    "env_id": 2,
     "finished": true,
-    "finish_step": 323,
-    "distance": -10.949951171875
+    "finish_step": 317,
+    "distance": -10.9603271484375
   },
   {
     "rank": 5,
     "env_id": 0,
     "finished": true,
-    "finish_step": 325,
-    "distance": -10.949835777282715
+    "finish_step": 324,
+    "distance": -10.943354606628418
   },
   {
     "rank": 6,
-    "env_id": 9,
+    "env_id": 4,
     "finished": true,
-    "finish_step": 331,
-    "distance": -10.979339599609375
+    "finish_step": 328,
+    "distance": -10.871475219726562
   },
   {
     "rank": 7,
-    "env_id": 1,
+    "env_id": 6,
     "finished": true,
-    "finish_step": 339,
-    "distance": -10.793607711791992
+    "finish_step": 328,
+    "distance": -10.957321166992188
   },
   {
     "rank": 8,
-    "env_id": 2,
+    "env_id": 5,
     "finished": true,
-    "finish_step": 340,
-    "distance": -10.925666809082031
+    "finish_step": 350,
+    "distance": -10.968185424804688
   },
   {
     "rank": 9,
-    "env_id": 4,
-    "finished": true,
-    "finish_step": 342,
-    "distance": -10.894508361816406
+    "env_id": 8,
+    "finished": false,
+    "finish_step": null,
+    "distance": -4.8325653076171875
   },
   {
     "rank": 10,
-    "env_id": 5,
+    "env_id": 1,
     "finished": false,
     "finish_step": null,
-    "distance": -5.335601806640625
+    "distance": -6.097158432006836
   }
 ]

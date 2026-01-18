@@ -73,5 +73,680 @@
         "distance": -5.335601806640625
       }
     ]
+  },
+  {
+    "generation": 2,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 312,
+        "distance": -10.946487426757812
+      },
+      {
+        "rank": 2,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 314,
+        "distance": -10.948051452636719
+      },
+      {
+        "rank": 3,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 314,
+        "distance": -10.950836181640625
+      },
+      {
+        "rank": 4,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 315,
+        "distance": -10.9456787109375
+      },
+      {
+        "rank": 5,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 320,
+        "distance": -10.944122314453125
+      },
+      {
+        "rank": 6,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 322,
+        "distance": -10.95317554473877
+      },
+      {
+        "rank": 7,
+        "env_id": 1,
+        "finished": true,
+        "finish_step": 322,
+        "distance": -10.949731826782227
+      },
+      {
+        "rank": 8,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 322,
+        "distance": -10.952987670898438
+      },
+      {
+        "rank": 9,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 325,
+        "distance": -10.949066162109375
+      },
+      {
+        "rank": 10,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 326,
+        "distance": -10.9415283203125
+      }
+    ]
+  },
+  {
+    "generation": 3,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 1,
+        "finished": true,
+        "finish_step": 307,
+        "distance": -10.955673217773438
+      },
+      {
+        "rank": 2,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 314,
+        "distance": -10.947921752929688
+      },
+      {
+        "rank": 3,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 319,
+        "distance": -10.948089599609375
+      },
+      {
+        "rank": 4,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 320,
+        "distance": -10.949920654296875
+      },
+      {
+        "rank": 5,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 321,
+        "distance": -10.947808265686035
+      },
+      {
+        "rank": 6,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 323,
+        "distance": -10.944442749023438
+      },
+      {
+        "rank": 7,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 327,
+        "distance": -10.940937042236328
+      },
+      {
+        "rank": 8,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 328,
+        "distance": -10.932136535644531
+      },
+      {
+        "rank": 9,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 329,
+        "distance": -10.948684692382812
+      },
+      {
+        "rank": 10,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 329,
+        "distance": -10.942764282226562
+      }
+    ]
+  },
+  {
+    "generation": 4,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 310,
+        "distance": -10.959564208984375
+      },
+      {
+        "rank": 2,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 310,
+        "distance": -10.944671630859375
+      },
+      {
+        "rank": 3,
+        "env_id": 1,
+        "finished": true,
+        "finish_step": 317,
+        "distance": -10.943487167358398
+      },
+      {
+        "rank": 4,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 324,
+        "distance": -10.952962875366211
+      },
+      {
+        "rank": 5,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 324,
+        "distance": -10.947826385498047
+      },
+      {
+        "rank": 6,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 325,
+        "distance": -10.939208984375
+      },
+      {
+        "rank": 7,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 328,
+        "distance": -10.951248168945312
+      },
+      {
+        "rank": 8,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 330,
+        "distance": -10.927764892578125
+      },
+      {
+        "rank": 9,
+        "env_id": 5,
+        "finished": false,
+        "finish_step": null,
+        "distance": -2.1941680908203125
+      },
+      {
+        "rank": 10,
+        "env_id": 9,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.993133544921875
+      }
+    ]
+  },
+  {
+    "generation": 5,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 310,
+        "distance": -10.975421905517578
+      },
+      {
+        "rank": 2,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 312,
+        "distance": -10.950515747070312
+      },
+      {
+        "rank": 3,
+        "env_id": 1,
+        "finished": true,
+        "finish_step": 316,
+        "distance": -10.967771530151367
+      },
+      {
+        "rank": 4,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 317,
+        "distance": -10.945159912109375
+      },
+      {
+        "rank": 5,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 325,
+        "distance": -10.952957153320312
+      },
+      {
+        "rank": 6,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 350,
+        "distance": -10.884735107421875
+      },
+      {
+        "rank": 7,
+        "env_id": 5,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.2108001708984375
+      },
+      {
+        "rank": 8,
+        "env_id": 6,
+        "finished": false,
+        "finish_step": null,
+        "distance": -6.641876220703125
+      },
+      {
+        "rank": 9,
+        "env_id": 9,
+        "finished": false,
+        "finish_step": null,
+        "distance": -6.962493896484375
+      },
+      {
+        "rank": 10,
+        "env_id": 3,
+        "finished": false,
+        "finish_step": null,
+        "distance": -6.9806365966796875
+      }
+    ]
+  },
+  {
+    "generation": 6,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 309,
+        "distance": -10.953948974609375
+      },
+      {
+        "rank": 2,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 308,
+        "distance": -10.976974487304688
+      },
+      {
+        "rank": 3,
+        "env_id": 1,
+        "finished": true,
+        "finish_step": 309,
+        "distance": -10.965877532958984
+      },
+      {
+        "rank": 4,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 313,
+        "distance": -10.974197387695312
+      },
+      {
+        "rank": 5,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 315,
+        "distance": -10.962753295898438
+      },
+      {
+        "rank": 6,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 323,
+        "distance": -10.960586547851562
+      },
+      {
+        "rank": 7,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 326,
+        "distance": -10.959474563598633
+      },
+      {
+        "rank": 8,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 334,
+        "distance": -10.978408813476562
+      },
+      {
+        "rank": 9,
+        "env_id": 2,
+        "finished": false,
+        "finish_step": null,
+        "distance": -3.5376548767089844
+      },
+      {
+        "rank": 10,
+        "env_id": 8,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.96881103515625
+      }
+    ]
+  },
+  {
+    "generation": 7,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 306,
+        "distance": -10.940017700195312
+      },
+      {
+        "rank": 2,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 311,
+        "distance": -10.97418212890625
+      },
+      {
+        "rank": 3,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 312,
+        "distance": -10.961112976074219
+      },
+      {
+        "rank": 4,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 313,
+        "distance": -10.977874755859375
+      },
+      {
+        "rank": 5,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 318,
+        "distance": -10.946279525756836
+      },
+      {
+        "rank": 6,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 321,
+        "distance": -10.955825805664062
+      },
+      {
+        "rank": 7,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 325,
+        "distance": -10.97509765625
+      },
+      {
+        "rank": 8,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 342,
+        "distance": -11.026229858398438
+      },
+      {
+        "rank": 9,
+        "env_id": 2,
+        "finished": false,
+        "finish_step": null,
+        "distance": -3.6464767456054688
+      },
+      {
+        "rank": 10,
+        "env_id": 1,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.743993759155273
+      }
+    ]
+  },
+  {
+    "generation": 8,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 308,
+        "distance": -10.9490966796875
+      },
+      {
+        "rank": 2,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 309,
+        "distance": -10.967765808105469
+      },
+      {
+        "rank": 3,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 313,
+        "distance": -10.96746826171875
+      },
+      {
+        "rank": 4,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 318,
+        "distance": -10.976455688476562
+      },
+      {
+        "rank": 5,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 320,
+        "distance": -10.943992614746094
+      },
+      {
+        "rank": 6,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 322,
+        "distance": -10.95843505859375
+      },
+      {
+        "rank": 7,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 335,
+        "distance": -10.927214622497559
+      },
+      {
+        "rank": 8,
+        "env_id": 9,
+        "finished": false,
+        "finish_step": null,
+        "distance": -2.850189208984375
+      },
+      {
+        "rank": 9,
+        "env_id": 1,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.533468246459961
+      },
+      {
+        "rank": 10,
+        "env_id": 7,
+        "finished": false,
+        "finish_step": null,
+        "distance": -7.169525146484375
+      }
+    ]
+  },
+  {
+    "generation": 9,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 303,
+        "distance": -10.9666748046875
+      },
+      {
+        "rank": 2,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 307,
+        "distance": -10.963836669921875
+      },
+      {
+        "rank": 3,
+        "env_id": 8,
+        "finished": true,
+        "finish_step": 307,
+        "distance": -10.975509643554688
+      },
+      {
+        "rank": 4,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 312,
+        "distance": -10.952484130859375
+      },
+      {
+        "rank": 5,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 316,
+        "distance": -10.9559326171875
+      },
+      {
+        "rank": 6,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 329,
+        "distance": -10.952219009399414
+      },
+      {
+        "rank": 7,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 383,
+        "distance": -10.5460205078125
+      },
+      {
+        "rank": 8,
+        "env_id": 1,
+        "finished": false,
+        "finish_step": null,
+        "distance": -3.9886531829833984
+      },
+      {
+        "rank": 9,
+        "env_id": 4,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.681861877441406
+      },
+      {
+        "rank": 10,
+        "env_id": 6,
+        "finished": false,
+        "finish_step": null,
+        "distance": -5.8065032958984375
+      }
+    ]
+  },
+  {
+    "generation": 10,
+    "results": [
+      {
+        "rank": 1,
+        "env_id": 3,
+        "finished": true,
+        "finish_step": 300,
+        "distance": -10.977088928222656
+      },
+      {
+        "rank": 2,
+        "env_id": 7,
+        "finished": true,
+        "finish_step": 310,
+        "distance": -10.97149658203125
+      },
+      {
+        "rank": 3,
+        "env_id": 9,
+        "finished": true,
+        "finish_step": 310,
+        "distance": -10.969635009765625
+      },
+      {
+        "rank": 4,
+        "env_id": 2,
+        "finished": true,
+        "finish_step": 317,
+        "distance": -10.9603271484375
+      },
+      {
+        "rank": 5,
+        "env_id": 0,
+        "finished": true,
+        "finish_step": 324,
+        "distance": -10.943354606628418
+      },
+      {
+        "rank": 6,
+        "env_id": 4,
+        "finished": true,
+        "finish_step": 328,
+        "distance": -10.871475219726562
+      },
+      {
+        "rank": 7,
+        "env_id": 6,
+        "finished": true,
+        "finish_step": 328,
+        "distance": -10.957321166992188
+      },
+      {
+        "rank": 8,
+        "env_id": 5,
+        "finished": true,
+        "finish_step": 350,
+        "distance": -10.968185424804688
+      },
+      {
+        "rank": 9,
+        "env_id": 8,
+        "finished": false,
+        "finish_step": null,
+        "distance": -4.8325653076171875
+      },
+      {
+        "rank": 10,
+        "env_id": 1,
+        "finished": false,
+        "finish_step": null,
+        "distance": -6.097158432006836
+      }
+    ]
   }
 ]
