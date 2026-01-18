@@ -8,15 +8,15 @@ import random
 import numpy as np
 
 # ==================================================
-# 🔥 STEP 1 — LOAD FITNESS RESULTS
+#  STEP 1 — LOAD FITNESS RESULTS
 # ==================================================
 with open("cycle_updates/fitness_results.json", "r") as f:
     fitness_results = json.load(f)
 
-print(f"📊 Loaded {len(fitness_results)} fitness results")
+print(f" Loaded {len(fitness_results)} fitness results")
 
 # ==================================================
-# 🔥 STEP 2 — EXTRACT TOP 2 PARENTS
+#  STEP 2 — EXTRACT TOP 2 PARENTS
 # ==================================================
 # Sort by rank (ascending, rank 1 is best)
 ranked = sorted(
@@ -25,17 +25,17 @@ ranked = sorted(
 )
 
 if len(ranked) < 2:
-    print("❌ ERROR: Need at least 2 ranked results")
+    print(" ERROR: Need at least 2 ranked results")
     exit(1)
 
 parent1_env_id = ranked[0]["env_id"]
 parent2_env_id = ranked[1]["env_id"]
 
-print(f"🏆 Parent 1: env_id {parent1_env_id} (rank {ranked[0]['rank']})")
-print(f"🏆 Parent 2: env_id {parent2_env_id} (rank {ranked[1]['rank']})")
+print(f" Parent 1: env_id {parent1_env_id} (rank {ranked[0]['rank']})")
+print(f" Parent 2: env_id {parent2_env_id} (rank {ranked[1]['rank']})")
 
 # ==================================================
-# 🔥 STEP 3 — LOAD CHROMOSOMES AND SELECT PARENTS
+#  STEP 3 — LOAD CHROMOSOMES AND SELECT PARENTS
 # ==================================================
 with open("cycle_updates/chromosomes.json", "r") as f:
     chromosomes = json.load(f)
@@ -43,11 +43,11 @@ with open("cycle_updates/chromosomes.json", "r") as f:
 parent1 = list(chromosomes[parent1_env_id])
 parent2 = list(chromosomes[parent2_env_id])
 
-print(f"📋 Parent 1 chromosome: {parent1}")
-print(f"📋 Parent 2 chromosome: {parent2}")
+print(f" Parent 1 chromosome: {parent1}")
+print(f" Parent 2 chromosome: {parent2}")
 
 # ==================================================
-# 🔥 STEP 4 — CROSSOVER & MUTATION
+#  STEP 4 — CROSSOVER & MUTATION
 # ==================================================
 def crossover(p1, p2):
     """Single-point crossover"""
@@ -88,7 +88,7 @@ for i in range(10):
     print(f"  🧬 Offspring {i}: {child}")
 
 # ==================================================
-# 🔥 STEP 5 — SAVE NEW CHROMOSOMES
+#  STEP 5 — SAVE NEW CHROMOSOMES
 # ==================================================
 with open("cycle_updates/chromosomes.json", "w") as f:
     json.dump(new_population, f, indent=2)
@@ -96,7 +96,7 @@ with open("cycle_updates/chromosomes.json", "w") as f:
 print(f"\n✔ Updated chromosomes.json with {len(new_population)} new offspring")
 
 # ==================================================
-# 🔥 STEP 6 — UPDATE GENERATION COUNTER
+#  STEP 6 — UPDATE GENERATION COUNTER
 # ==================================================
 try:
     with open("cycle_updates/current_generation.json", "r") as f:
@@ -109,5 +109,5 @@ next_gen = current_gen + 1
 with open("cycle_updates/current_generation.json", "w") as f:
     json.dump({"generation": next_gen}, f, indent=2)
 
-print(f"📈 Updated generation: {current_gen} → {next_gen}")
-print("✅ Genetic algorithm complete!")
+print(f" Updated generation: {current_gen} → {next_gen}")
+print(" Genetic algorithm complete!")

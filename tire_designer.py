@@ -9,12 +9,12 @@ import cadquery as cq
 from cadquery import exporters
 
 # ==================================================
-# 🔥 STEP 1 — LOAD CHROMOSOMES FROM JSON
+#  STEP 1 — LOAD CHROMOSOMES FROM JSON
 # ==================================================
 with open("cycle_updates/chromosomes.json", "r") as f:
     chromosomes = json.load(f)
 
-print(f"📋 Loaded {len(chromosomes)} chromosomes from chromosomes.json")
+print(f" Loaded {len(chromosomes)} chromosomes from chromosomes.json")
 
 # ==================================================
 # CONSTANT INNER DIAMETER (STATIC DESIGN RULE!)
@@ -25,7 +25,7 @@ fillet_radius = 4.0
 tread_axial_width = 40.0  # stays constant unless you want GA control
 
 # ==================================================
-# 🚀 STEP 2 — LOOP AND GENERATE 10 STL FILES
+#  STEP 2 — LOOP AND GENERATE 10 STL FILES
 # ==================================================
 for idx, (outer_radius, tire_axial_width, tread_count, tread_width, tread_depth) in enumerate(chromosomes):
 
@@ -80,5 +80,5 @@ for idx, (outer_radius, tire_axial_width, tread_count, tread_width, tread_depth)
 
     print(f"   ✔ {stl_name} created")
 
-print("\n🎉 DONE — 10 tire files generated!")
+print("\n DONE — 10 tire files generated!")
 print("Use tire_0.stl … tire_9.stl inside Genesis")

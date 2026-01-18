@@ -204,4 +204,4 @@ with open(history_path, "w") as f:
 
 print("Saved fitness_results.json!")
 print("Saved fitness_history.json!")
-print("🏁 Done!")
+print(" Done!")

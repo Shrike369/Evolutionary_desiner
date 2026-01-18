@@ -20,7 +20,7 @@ This project uses a genetic algorithm to optimize robot tire designs for simulat
 - `robot/` — Contains URDFs and generated tire STL files.
 - `robo_world/` — Contains terrain STL.
 
-## Usage
+## User Guide
 
 1. **Install dependencies:**
    ```bash
@@ -54,6 +54,5 @@ This project uses a genetic algorithm to optimize robot tire designs for simulat
 
 See `requirements.txt` for Python dependencies.
 
-## License
 
-MIT License (or specify your own)
+
